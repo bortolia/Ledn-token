@@ -217,6 +217,8 @@ Status: 200 OK
 ]
 ```
 
+## Debit a users account
+
 ### Request
 
 `POST /api/transactions/:email/debit`
@@ -247,6 +249,8 @@ Status: 201 Created
 }
 ```
 
+## Credit a users account
+
 ### Request
 
 `POST /api/transactions/:email/credit`
@@ -276,6 +280,8 @@ Status: 201 Created
   createdAt: "2020-11-15T17:53:15.463Z"
 }
 ```
+
+## Transfer amount between users
 
 ### Request
 
